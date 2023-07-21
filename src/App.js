@@ -9,7 +9,7 @@ import { SignIn } from './components/SignIn'
 export default function App() {
   return (
     <Router>
-      <div className='app w-full h-screen flex flex-col bg-black'>
+      <div className='app w-full h-full flex flex-col bg-black'>
       <Routes> 
          <Route exact path='/' element={<Home />} />
          <Route exact path='/signin' element={<SignIn />} />
